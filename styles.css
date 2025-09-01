@@ -20,8 +20,9 @@ select {
   width: 80%;
   padding: 16px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 0px;
   background-color: #f1f1f1;
+  margin: 4px 4px;
   cursor: pointer;
 
 }
@@ -30,7 +31,7 @@ width: 18%;
 background-color: #273643;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 16px 20px;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
@@ -74,7 +75,7 @@ flex-direction: column;
 }
 .flex-item-2{
 border: 1px solid white;
-padding: 10px;
+padding: 0px;
 flex: 0 1 auto;
 box-sizing: border-box;
 }
