@@ -1,0 +1,41 @@
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript">
+    function goToNewPage()
+    {
+      var url = document.getElementById('list').value;
+      if(url != 'none') {
+        window.location = url;
+      }
+    }
+    
+  </script>
+    
+
+<section>
+    <div class="header-text">
+      <header>
+        <img src="https://transportes.prefeitura.rio/wp-content/uploads/sites/31/2025/01/RIO-PREFEITURA-Transportes-horizontal-monocromatica-branco.png" height="50px" align="left">
+        Monitor Inteligente de Mobilidade Urbana
+        </header>
+   
+     </div>
+    <div>Block-level Element
+  
+  <div class="content-wrapper">
+     <form>
+<select name="list" id="list" accesskey="target">
+  <option value='none' selected>Escolha um modal</option>
+  <option value="BRT.html">BRT </option>
+  <option value="SPTO.html">SPPO </option>
+  <option value="VLT.html">VLT </option>
+ </select>
+ <input type=button value="Monitorar" onclick="goToNewPage()" />
+</form></div>
+      
+  </div>
+</section>
+<footer>
+  <p>Monitor Estratégico de Contingencias® customizado de acordo com Chamada Pública através do desafio.rio ®SudLab, 2025</p>
+</footer>
+</head>
