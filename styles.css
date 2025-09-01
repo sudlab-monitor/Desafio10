@@ -59,6 +59,10 @@ span{
  margin: 0px;
  display: grid;
 }
+.texto{
+  color: #0056A7;
+  font-size: small;
+}
 footer{
   background-color:white;
   margin: 0 auto;
