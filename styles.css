@@ -69,7 +69,7 @@ text-align: right;
 padding: 0px 0px;
 }
 .monitor-area{
-cursor: pointer;
+cursor: crosshair;
 }
 .flex-container{
 background: #0056A7;
