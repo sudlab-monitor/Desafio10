@@ -71,6 +71,9 @@ padding: 0px 0px;
 .monitor-area{
 cursor: crosshair;
 }
+.monitor-area-zoom{
+cursor: zoom-in;
+}
 .flex-container{
 background: #0056A7;
 border: 1px solid lightgrey;
