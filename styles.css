@@ -1,7 +1,7 @@
 body{
   background-color:lightgrey;
   margin: 0;
-  font-family: Segoe UI;
+  font-family: "Segoe UI", Verdana, sans-serif;
 }
 a{
   text-decoration: none;
