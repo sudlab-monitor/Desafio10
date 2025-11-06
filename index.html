@@ -32,20 +32,13 @@
     <body>
 	<header>
 	<div class=>
-  	<p><img src="https://desafio.rio/wp-content/uploads/sites/6/elementor/thumbs/Logo-_-Desafio-Rio-raht0am6c6m2gnq71363jtf04qu2u077coq27hcx6o.png" height="50px" align="left" <br></br></p>
+  	<p><img src="https://images.squarespace-cdn.com/content/v1/5c48c18f372b96e158ec0fde/ad8c010a-8691-4704-a208-01afdeb57fce/SUDLAB-LOGO-2024-05.png?format=500w" height="50px" align="left"><br></br></p>
   	</div>
 	</header>
 	<section>
-		<div class="flex-container">
-			<div class="flex-item"><img src="https://transportes.prefeitura.rio/wp-content/uploads/sites/31/2025/01/RIO-PREFEITURA-Transportes-horizontal-monocromatica-branco.png" height="50px" align="left"></div>
-			<div class="flex-item"><p>Monitor Inteligente da Mobilidade</p></div>
-			<div class="flex-item"><img src="https://carioca.rio/wp-content/uploads/2020/01/logotipo-topo.png" height="50px" align="right"></div>
-			
-</div>
-			
-			
-		
-	
+		<div class="flex-container-title">
+			<div class="flex-item-6" width="80%"><p>Monitor Estratégico de Mobilidade Urbana</p></div>	
+		</div>
 	</section>
 
 <section>
@@ -57,6 +50,7 @@
 	<option value="metro.html">Metrô Rio</option>
   	<option value="SPPO.html">SPPO </option>
   	<option value="VLT.html">VLT </option>
+	<option value="ciclovias.html">Ciclovias </option>
   		
  		</select>
  		<input type=button value="Monitorar" onclick="goToNewPage()">
@@ -71,6 +65,7 @@
 		<div class="metro"><p>&nbsp;&nbsp;&nbsp;Metrô Rio</p></div>
 		<div class="sppo"><p>&nbsp;&nbsp;&nbsp;SPPO</p></div>
 		<div class="vlt"><p>&nbsp;&nbsp;&nbsp;VLT</p></div>
+		<div class="ciclovias"><p>&nbsp;&nbsp;&nbsp;Ciclovias</p></div>
 		</div>
 	
 	</div>
@@ -78,13 +73,6 @@
 	<div class="flex-container-3">
 		<div class="flex-item-3">
 			<p>
-			Esta interface é uma proposta de Solução Inovadora em processo <i>(built-up)</i> para o <a href="https://drive.google.com/file/d/132cwQAQboWU_k3X3U-ekULlLtHnDne0b/view" target="_blank">Desafio 10</a>. </br><a href="https://drive.google.com/file/d/1Hdoo27d_x7J0hnP5EVwyO4EO-m7TOln3/view?usp=drive_link" target="_blank">Saiba mais nesse vídeo.</a></br></br>
-Ela renderiza <i>datasets</i> com geomapeamento do <a href="https://data.rio" target="_blank">data.rio</a> através de snippets em linguagem Python com a biblioteca <a href="https://geopandas.org/" target="_blank">geopandas</a>; é totalmente funcional offline e em ambientes controlados. Está preparada para se tornar um API a serviço da SMTR, do Escritório de Dados, e também para ser integrada com dados GTFS em tempo real; sua iteração pode gerar outros monitores e aplicativos vinculados a PCRJ que exijam georreferenciamento. Os arquivos estão disponíveis no repositório <a href="https://github.com/sudlab-monitor/Desafio10" target="_blank">https://github.com/sudlab-monitor/Desafio10</a>.</br></br>
-Nesse primeiro momento, decidimos demonstrar que é possível, em uma interface HTML com códigos .js, sem plug-ins nem componentes standalone, totalmente aberta e auditável, e que usa <i>datasets Shapefile</i> armazenados e compartilhados no <a href="https://data.rio/search?q=datalake" target="_blank">datalake</a>, <i>visualizar todos os modais sob a alçada da SMTR</i> e inclusive os que estão no território da Cidade do Rio de Janeiro mas que são regulados por outras esferas de governança, como o <i>Metrô Rio.</i></br></br>
-A principal inovação que propomos é o formato de visualização de dados dos modais considerando ambientes controlados. Para compreender essa inovação, é importante <i>abrir a interface sem conexão a Internet.</i> O mapa do Município, com os modais selecionados, só é gerado no momento em que a página é carregada no browser: nao há hyperlinks no código dos mapas, no repositório do GitHub não há arquivos de imagens, e ainda assim <i>a visualização de dados é 100% funcional offline.</i> Isso se dá porque os dados disponibilizados no datalake são processados previamente dentro do próprio código HTML, usando snippets .py desenvolvidos dentro do ambiente Jupyter Notebook, e renderizados em formato .png toda vez que a página é carregada.</br></br>
-O SudLab recomenda um projeto de Engenharia de Dados que permita a integração de todas as <i>data sources</i> de interesse da PCRJ para viabilizar possibilidades de publicação <i>(deployment)</i> em outras estruturas de dados que não usem somente GCP, conforme solicitado no Desafio 10, para posterior integração de dados GTFS em tempo real, desenvolvimento do sistema de alarmes a ser monitorado, e finalmente implementação de modelo de linguagem para Machine Learning.</br></br>
-Todas estas questões evidenciam que, para tangibilizar o Desafio 10 proposto, se faz necessária uma compra de tecnologia através de Contrato Público de Solução Inovadora, ou mesmo uma Prestação de Serviços para Solução Inovadora (por exemplo, <i>CNAE 8599-6/03 - Treinamento em Informática)</i> que possa estruturar uma equipe dedicada em tempo integral a essa entrega e que possa também desenvolver um eventual Monitor Inteligente que integre outras Soluçoes Inovadoras. A equipe de Análise de Dados do SudLab está totalmente disponível para avançar nesse diálogo e iremos acompanhar a possível publicação de um Edital de CPSI, no intuito de contribuir com critério científico ao ecossistema de inovação carioca.
-
 			</p>
 	</div>
 	</div>
@@ -99,7 +87,7 @@ Todas estas questões evidenciam que, para tangibilizar o Desafio 10 proposto, s
 </div>
 </section>
 <footer>
-  <p>Monitor Estratégico de Contingências SudLab, 2025 - Customizado de acordo com Consulta Pública através do <a href="http://desafio.rio" target="_blank">desafio.rio</a></p>
+  <p>Monitor Estratégico de Contingências ® <a href="https:/sudlab.org">SudLab</a>, 2025</p>
 </footer>
 </head>
 </body>
