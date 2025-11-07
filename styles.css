@@ -16,7 +16,7 @@
   z-index: 1;
 } 
 
-/* set up square grid */
+/* set up square grid and module size*/
 
 
 .grid-container {
@@ -53,10 +53,10 @@
 .layer-one {
   display: none;
   position: absolute;
-  top: 5px;
+  top: 2px;
   left: 0px;
-  width: 150px;
-  height: 100%;
+  width: 33%;
+  height: 50%;
   /*background-color: lightcoral;*/
   z-index: 3;
   padding: 0px;
@@ -64,10 +64,10 @@
 .layer-two {
   display: none;
   position: absolute;
-  top: 5px;
+  top: 2px;
   left: 300px;
-  width: 150px;
-  height: 100%;
+  width: 33%;
+  height: 50%;
   /*background-color: lightcoral;*/
   z-index: 3;
   padding: 0px;
@@ -75,9 +75,9 @@
 .layer-three {
   display: none;
   position: absolute;
-  top: 5px;
+  top: 2px;
   left: 600px;
-  width: 150px;
+  width: 33%;
   height: 100%;
   /*background-color: lightcoral;*/
   z-index: 3;
@@ -86,13 +86,19 @@
 .layer-four {
   display: none;
   position: absolute;
-  top: 314px;
+  top: 59.5%;
   left: 0px;
   width: 100%;
   height: 50%;
+  overflow: hidden;
+  width: 100%
   /*background-color: lightcoral;*/
   z-index: 3;
   padding: 0px;
+.layerfour .column {
+  float: left;
+  width: 50;
+}
 }
 .layer-five {
   display: none;
@@ -396,6 +402,7 @@
 }
 
 .mymain .brt-module4 li {
+  text-indent: 0em;  
   font-size: 14px;
   font-variant: small-caps;
   font-weight: 600;
@@ -405,7 +412,8 @@
   padding: 0px;
 }
 .mymain .brt-module4 li::marker {
-  color: #FEE84A;
+text-indent: 2em;  
+color: #FEE84A;
   padding-left: 10px;
 }
 
@@ -705,7 +713,7 @@ select {
   border-radius: 0px;
   background-color: #f1f1f1;
   margin: 4px 4px;
-  cursor: pointer;
+  cursor: copy;
 }
 input[type=button], input[type=submit], input[type=reset] {
   width: 18%;  
@@ -933,6 +941,29 @@ button{
   cursor: pointer;
   display: flex;
   flex-wrap: wrap;
+}
+button .initial-style{
+  font: 16px Segoe UI, Arial, sans-serif;
+  font-variant-caps: all-small-caps;
+  text-align: center;
+  width: 100%;
+  background-color: #061D3E;
+  border-color: white;
+  border-width: 3px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  color: white;
+  padding: 16px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+}
+button .active-style{
+  color: FF0000;
 }
 .flex-container-7{
   background: #DDDDDD;
